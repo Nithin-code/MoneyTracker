@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1017119530632",
+    "project_id": "moneytrackerapp-eccb5",
+    "storage_bucket": "moneytrackerapp-eccb5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017119530632:android:21c88a5d59b017307c093d",
+        "android_client_info": {
+          "package_name": "com.nithin.moneytracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGrCW0WR-nCUKL6CHh5G2sxt5m4_cJzjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
