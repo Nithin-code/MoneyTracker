@@ -1,0 +1,21 @@
+name: Test Project
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get Code
+        uses: actions/checkout@v7
+      - name: Install Java JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+      - name: Grant execute permission
+        run: chmod +x ./gradlew
+      - name: Run Unit Tests
+        run: ./gradlew test
+      - name: Build Android App
+        run: ./gradlew assembleDebug
