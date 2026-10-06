@@ -18,6 +18,7 @@ jobs:
       - name: Run Unit Tests
         run: ./gradlew test
   deploy:
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Get Code
